@@ -21,13 +21,13 @@ var brwsr;
     if (navigator.appName == 'Netscape'){
         var ua = navigator.userAgent;
         var re  = new RegExp("Trident/.*rv:([0-9]{1,}[\.0-9]{0,})");
-        if (re.exec(ua) != null){ie11 = true;}
-        //rv = parseFloat( RegExp.$1 );
+        if (re.exec(ua) != null){
+            ie11 = true;
+        }
     }
 
     function iOSversion() {
         if (/iP(hone|od|ad)/.test(navigator.platform)) {
-            // supports iOS 2.0 and later: <http://bit.ly/TJjs1V>
             console.log("%c step1", "background: green; color:white");
             var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);
             console.log("%c step2", "background: yellow");
