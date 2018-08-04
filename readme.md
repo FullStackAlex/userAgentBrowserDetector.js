@@ -1,4 +1,4 @@
-#A simple browser (version) detector based on useragent info using Vanilla JavaScript (no jQuery needed)
+# A simple browser (version) detector based on useragent info using Vanilla JavaScript (no jQuery needed)
 Just place the file inside \<head\> and use the browser classe inside your CSS files: 
 ```
 html.safari,
